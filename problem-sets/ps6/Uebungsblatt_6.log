@@ -1,0 +1,42 @@
+{"type":["init_ps"],"time":["2024-05-06 18:49:37"],"user":["Marc Kuppinger"],"umph":[1715014177.3663],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 18:49:37"],"user":["Marc Kuppinger"],"umph":[1715014177.4112],"ok":[false],"chunk":[1],"ex":[1],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_a."]}
+,
+{"type":["check_ps"],"time":["2024-05-06 18:50:35"],"user":["Marc Kuppinger"],"umph":[1715014235.4855],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 18:50:35"],"user":["Marc Kuppinger"],"umph":[1715014235.5032],"ok":[false],"chunk":[1],"ex":[1],"e.ind":[1],"code":["\n1\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_a."]}
+,
+{"type":["check_ps"],"time":["2024-05-06 18:50:39"],"user":["Marc Kuppinger"],"umph":[1715014239.9832],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 18:50:39"],"user":["Marc Kuppinger"],"umph":[1715014239.9987],"ok":[true],"chunk":[1],"ex":[1],"e.ind":[0],"code":["\n2\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 18:50:40"],"user":["Marc Kuppinger"],"umph":[1715014240.0117],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[1],"code":["\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_b."]}
+,
+{"type":["check_ps"],"time":["2024-05-06 18:58:25"],"user":["Marc Kuppinger"],"umph":[1715014705.05],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 18:58:25"],"user":["Marc Kuppinger"],"umph":[1715014705.0653],"ok":[false],"chunk":[2],"ex":[1],"e.ind":[1],"code":["\n3\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_b."]}
+,
+{"type":["check_ps"],"time":["2024-05-06 18:58:32"],"user":["Marc Kuppinger"],"umph":[1715014712.8399],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 18:58:32"],"user":["Marc Kuppinger"],"umph":[1715014712.8544],"ok":[true],"chunk":[2],"ex":[1],"e.ind":[0],"code":["\n\"nein\"\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 18:58:35"],"user":["Marc Kuppinger"],"umph":[1715014715.2424],"ok":[false],"chunk":[3],"ex":[1],"e.ind":[2],"code":["thp <- read_csv(\"./data/THP_clean.csv\") %>%\n  select(newid, uc, depressed_1y, treat, age_baseline, age_baseline_sq, kids_no, famstruct_baseline, grandmother_baseline, edu_mo, edu_fa, employed_mo_baseline, incomeindex, depindex_0, mspss_tot)\n\n# enter your code here ...\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c."]}
+,
+{"type":["check_ps"],"time":["2024-05-06 19:04:28"],"user":["Marc Kuppinger"],"umph":[1715015068.0517],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 19:04:30"],"user":["Marc Kuppinger"],"umph":[1715015070.2474],"ok":[false],"chunk":[3],"ex":[1],"e.ind":[2],"code":["thp <- read_csv(\"./data/THP_clean.csv\") %>%\n  select(newid, uc, depressed_1y, treat, age_baseline, age_baseline_sq, kids_no, famstruct_baseline, grandmother_baseline, edu_mo, edu_fa, employed_mo_baseline, incomeindex, depindex_0, mspss_tot)\n\nskimr(thp)\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c."]}
+,
+{"type":["check_ps"],"time":["2024-05-06 19:04:50"],"user":["Marc Kuppinger"],"umph":[1715015090.8517],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 19:04:53"],"user":["Marc Kuppinger"],"umph":[1715015093.232],"ok":[false],"chunk":[3],"ex":[1],"e.ind":[2],"code":["thp <- read_csv(\"./data/THP_clean.csv\") %>%\n  select(newid, uc, depressed_1y, treat, age_baseline, age_baseline_sq, kids_no, famstruct_baseline, grandmother_baseline, edu_mo, edu_fa, employed_mo_baseline, incomeindex, depindex_0, mspss_tot)\n\nskimr(\"thp\")\n"],"message":["\nYou have not yet entered all correct commands in chunk 1_c."]}
+,
+{"type":["check_ps"],"time":["2024-05-06 19:09:17"],"user":["Marc Kuppinger"],"umph":[1715015357.9543],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 19:09:19"],"user":["Marc Kuppinger"],"umph":[1715015359.6691],"ok":[true],"chunk":[3],"ex":[1],"e.ind":[0],"code":["thp <- read_csv(\"./data/THP_clean.csv\") %>%\n  select(newid, uc, depressed_1y, treat, age_baseline, age_baseline_sq, kids_no, famstruct_baseline, grandmother_baseline, edu_mo, edu_fa, employed_mo_baseline, incomeindex, depindex_0, mspss_tot)\n\nskim(thp)\n"],"message":[""]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 19:09:19"],"user":["Marc Kuppinger"],"umph":[1715015359.6849],"ok":[false],"chunk":[4],"ex":[1],"e.ind":[1],"code":["thp_plots <- thp %>%\n  mutate(treat_factor = as.factor(ifelse(treat == 1 , \"Treatment\", \"Kontrolle\")),\n         depressed = as.factor(ifelse(depressed_1y == 0, \"keine Depressionen\", \"Depressionen\"))) %>%\n  filter( !is.na(depressed)) \n#plot_prop_depression <- ggplot(___, aes(x = ___, fill = ___)) +\n#  geom_bar(position = \"fill\") +\n#  labs(x = NULL, y = \"Anteil an Depressionen\", fill = NULL) +\n#  scale_fill_manual(values = c(\"darkblue\", \"darkred\"))\n\n#plot_prop_depression\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to plot_prop_depression in chunk 1_d."]}
+,
+{"type":["check_ps"],"time":["2024-05-06 19:09:29"],"user":["Marc Kuppinger"],"umph":[1715015369.5646],"ok":[true]}
+,
+{"type":["check_chunk"],"time":["2024-05-06 19:09:29"],"user":["Marc Kuppinger"],"umph":[1715015369.5833],"ok":[false],"chunk":[4],"ex":[1],"e.ind":[1],"code":["thp_plots <- thp %>%\n  mutate(treat_factor = as.factor(ifelse(treat == 1 , \"Treatment\", \"Kontrolle\")),\n         depressed = as.factor(ifelse(depressed_1y == 0, \"keine Depressionen\", \"Depressionen\"))) %>%\n  filter( !is.na(depressed)) \n#plot_prop_depression <- ggplot(___, aes(x = ___, fill = ___)) +\n#  geom_bar(position = \"fill\") +\n#  labs(x = NULL, y = \"Anteil an Depressionen\", fill = NULL) +\n#  scale_fill_manual(values = c(\"darkblue\", \"darkred\"))\n\n#plot_prop_depression\n\n# enter your code here ...\n"],"message":["\nYou have not yet made an assignment to plot_prop_depression in chunk 1_d."]}
+,

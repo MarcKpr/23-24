@@ -1,7 +1,7 @@
 
 ```{r 'check_ps', include=FALSE}
 
-user.name = 'ENTER A USER NAME HERE'
+user.name = 'Marc Kuppinger'
 ```
 
 # RTutor Uebungsblatt 6 - Projektkurs
@@ -54,7 +54,7 @@ a) Wie sollte ein Experiment ausgestaltet sein, um valide Aussagen über den Eff
 Schreiben Sie die Nummer des Experiments:
 ```{r "1_a"}
 
-# enter your code here ...
+2
 
 ```
 
@@ -69,7 +69,7 @@ b) Daher machen wir weitere zwei Vorschläge für eine Experiment. Sind diese Ex
 Schreiben Sie die Nummer des Experiments oder "nein":
 ```{r "1_b"}
 
-# enter your code here ...
+"nein"
 
 ```
 
@@ -91,7 +91,7 @@ Laden Sie nun mit folgendem Code den Datensatz und schauen sich diesen mit skimr
 thp <- read_csv("./data/THP_clean.csv") %>%
   select(newid, uc, depressed_1y, treat, age_baseline, age_baseline_sq, kids_no, famstruct_baseline, grandmother_baseline, edu_mo, edu_fa, employed_mo_baseline, incomeindex, depindex_0, mspss_tot)
 
-# enter your code here ...
+skim(thp)
 
 ```
 
